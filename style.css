@@ -1,0 +1,949 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.task{
+    width: 100%;
+    height: 980px;
+    background-color: #FFFFFF;
+}
+
+/* منو */
+.task .navbar{
+    width: 100%;
+    height: 88px;
+    background-color: #FFFFFF;
+}
+.navbar .logo{
+    position: absolute;
+    top: 24px;
+    left: 80px;
+}
+.navbar .menu{
+    width: 580px;
+    height: 24px;
+    position: absolute;
+    top: 32px;
+    left: 370px;
+}
+.navbar .menu ul{
+    list-style: none;
+    display: flex;
+}
+.navbar .menu ul li{
+    margin-left: 56px;
+}
+.navbar .menu ul li a{
+    text-decoration: none;
+    color: #282A3A;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+}
+.navbar .icon{
+    width: 65px;
+    height: 24px;
+    position: absolute;
+    top: 32px;
+    left: 1180px;
+}
+.navbar .icon #sh-i{
+    margin-left: 10px;
+}
+
+/* عکس */
+.task .Text-box{
+    width: 631px;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    left: 350px;
+}
+.Text-box .text-1{
+    width: 563px;
+    height: 154px;
+}
+.Text-box .text-1 p{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #282A3A;
+    font-family: "Playfair Display", serif;
+}
+.Text-box .text-2{
+    width: 631px;
+    height: 64px;
+    margin-top: 24px;
+}
+.Text-box .text-2 p{
+    padding-left: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+}
+.Text-box button{
+    width: 363px;
+    height: 82px;
+    background-color: #6D1600;
+    border: none;
+    border-radius: 0 32px 0 32px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Text-box button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #FFFFFF;
+    font-family: "Playfair Display SC", serif;
+}
+.Text-box button img{
+    width: 34px;
+    height: 34px;
+    margin-left: 18px;
+}
+
+/* عکس ها */
+.task .pictur-box{
+    width: 1230px;
+    height: 348px;
+    display: flex;
+    position: relative;
+    top: 160px;
+    left: 60px;
+}
+.pictur-box .image1 img, .image2 img, .image3 img, .image4 img, .image5 img{
+    width: 230px;
+    height: 348px;
+    margin-left: 16px;
+    background-color: aquamarine;
+}
+.pictur-box .image1 img, .image3 img, .image5 img{
+    border-radius: 0 80px 0 80px;
+}
+.pictur-box .image2 img, .image4 img{
+    border-radius: 80px 0 80px 0;
+}
+
+/* باکس عددی  */
+.task .socal-box{
+    width: 100%;
+    height: 274px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 240px;
+    left: -48px;
+}
+.socal-box .box{
+    width: 214px;
+    height: 114px;
+    margin-left: 81px;
+}
+.socal-box .box .text-1{
+    width: 214px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socal-box .box .text-1 span{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -2%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+}
+.socal-box .box .text-2{
+    width: 214px;
+    height: 29px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socal-box .box .text-2 span{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 120%;
+    color: #282A3A;
+    font-family: "Playfair Display", serif;
+}
+.socal-box .line{
+    margin-left: 40px;
+}
+
+/* بخش باکس کاپ */
+.task .page{
+    width: 100%;
+    height: 961px;
+    position: relative;
+    top: 250px;
+}
+.page .title{
+    width: 443px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    left: 450px;
+}
+.page .title .txt-1{
+    width: 149px;
+    height: 29px;
+    opacity: 56%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page .title .txt-1 span{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 120%;
+    font-family: "Inter", sans-serif;
+}
+.page .title .txt-2{
+    width: 443px;
+    height: 43px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page .title .txt-2 span{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 120%;
+    color: #282A3A;
+    font-family: "Playfair Display", serif;
+}
+
+
+.page .D-box{
+    width: 100%;
+    height: 641px;
+    position: relative;
+    top: 160px;
+}
+.page .D-box .frame{
+    width: 556px;
+    height: 77px;
+    background-color: #F6F6F6;
+    border-radius: 40px;
+    margin-left: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page .D-box .frame .label{
+    width: 180px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page .D-box .frame .label span{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 120%;
+    letter-spacing: 2%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+}
+.page .D-box .frame .label#SL{
+    background-color: #FFFFFF;
+    border-radius: 40px;
+}
+
+.D-box .container{
+    width: 100%;
+    height: 476px;
+    margin-top: 60px;
+    display: flex;
+}
+.container .box{
+    width: 302px;
+    height: 476px;
+    background-color: #FFFFFF;
+    margin-left: 24px;
+    border-radius: 0 40px 0 40px;
+}
+.container .box .image6 img, .image7 img, .image8 img, .image9 img{
+    width: 302px;
+    height: 220px;
+    border-radius: 0 40px 0 40px;
+}
+.container .box .Text-Box{
+    width: 302px;
+    height: 236px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container .box .T-1{
+    width: 254px;
+    height: 34px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.container .box .T-1 span{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    color: #282A3A;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container .box .T-2{
+    width: 254px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.container .box .star-box{
+    width: 61px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.container .box .star-box span{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 2%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+    margin-left: 4px;
+}
+.container .box .number{
+    width: 105px;
+    height: 22px;
+    opacity: 75%;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+.container .box .number span{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+}
+.container .box .T-3{
+    width: 254px;
+    height: 66px;
+    opacity: 72%;
+    margin-top: 16px;
+}
+.container .box .T-3 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+}
+.container .box .T-4{
+    width: 254px;
+    height: 32px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.container .box .T-4 .money{
+    width: 158px;
+    height: 24px;
+    opacity: 70%;
+    display: flex;
+    align-items: center;
+}
+.container .box .T-4 .money span{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+}
+.container .box .T-4 img{
+    width: 70px;
+    margin-left: 16px;
+}
+.D-box .Frame-pic{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+
+.task .page2{
+    height: 600px;
+    padding: 80px;
+    margin-top: 300px;
+}
+.page2 .title{
+    width: 322px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    left: 425px;
+}
+.page2 .title .t1{
+    width: 102px;
+    height: 29px;
+    opacity: 56%;
+}
+.page2 .title .t1 span{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    font-family: "Inter", sans-serif;
+}
+.page2 .title .t2{
+    width: 322px;
+    height: 43px;
+}
+.page2 .title .t2 span{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 120%;
+    color: #282A3A;
+    font-family: "Playfair Display", serif;
+}
+.page2 .container{
+    width: 100%;
+    height: 442px;
+    margin-top: 100px;
+    display: flex;
+}
+.page2 .container .row{
+    width: 600px;
+    height: 442px;
+}
+.page2 .container .row .text1{
+    width: 600px;
+    height: 128px;
+}
+.page2 .container .row .text2{
+    width: 600px;
+    height: 96px;
+    margin-top: 24px;
+}
+.page2 .container .row .text3{
+    width: 600px;
+    height: 64px;
+    margin-top: 24px;
+}
+.page2 .container .row .text1 p, .text2 p, .text3 p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+}
+.page2 .container .row button{
+    width: 220px;
+    height: 70px;
+    background-color: #6D1600;
+    border: none;
+    border-radius: 0 32px 0 32px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2 .container .row button a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #FFFFFF;
+    font-family: "Playfair Display SC", serif;
+}
+.page2 .container .row#r-l{
+    display: flex;
+    margin-left: 80px;
+}
+.page2 .container .pic1 img, .pic2 img{
+    width: 230px;
+    height: 348px;
+    margin-left: 16px;
+}
+.page2 .container .pic1 img{
+    border-radius: 0 80px 0 80px;
+    position: relative;
+    top: 64px;
+}
+.page2 .container .pic2 img{
+    border-radius: 80px 0 80px 0;
+    position: relative;
+    margin-bottom: 64px;
+}
+
+
+.task .page3{
+    width: 100%;
+    height: 650px;
+}
+.page3 .title{
+    width: 322px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    left: 520px;
+}
+.page3 .title .t1{
+    width: 102px;
+    height: 29px;
+    opacity: 56%;
+}
+.page3 .title .t1 span{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    font-family: "Inter", sans-serif;
+}
+.page3 .title .t2{
+    width: 322px;
+    height: 43px;
+}
+.page3 .title .t2 span{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 120%;
+    color: #282A3A;
+    font-family: "Playfair Display", serif;
+}
+.page3 .container3{
+    width: 1280px;
+    height: 360px;
+    margin-top: 80px;
+    margin-left: 28px;
+    display: flex;
+}
+.page3 .container3 .box{
+    width: 405.33px;
+    height: 322px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 32px;
+    background-color: #FFFFFF;
+}
+.page3 .container3 .box .profil{
+    width: 325.33px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.page3 .container3 .box .profil .deatl{
+    width: 132px;
+    height: 56px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.page3 .container3 .box .profil .deatl .matn{
+    width: 132px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.page3 .container3 .box .profil .deatl .matn span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+    font-family: "Inter", sans-serif;
+    color: #282A3A;
+}
+.page3 .container3 .box .profil .deatl img{
+    width: 100px;
+    margin-top: 8px;
+    margin-left: 0;
+}
+.page3 .container3 .parag{
+    width: 325.33px;
+    height: 168px;
+    margin-top: 16px;
+}
+.page3 .container3 .parag p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+}
+.page3 .Frame-pic{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+
+.task .page4{
+    width: 100%;
+    height: 1023px;
+}
+.page4 .title{
+    width: 322px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 88px;
+    left: 530px;
+}
+.page4 .title .t1{
+    width: 102px;
+    height: 29px;
+    opacity: 56%;
+}
+.page4 .title .t1 span{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    font-family: "Inter", sans-serif;
+}
+.page4 .title .t2{
+    width: 322px;
+    height: 43px;
+}
+.page4 .title .t2 span{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 120%;
+    color: #282A3A;
+    font-family: "Playfair Display", serif;
+}
+.page4 .container {
+    width: 1280px;
+    height: 541px;
+    display: flex;
+    position: relative;
+    top: 160px;
+    left: 30px;
+}
+.page4 .container .box-2{
+    width: 405.33px;
+    height: 541px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 32px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 0 96px 0 40px;
+}
+.page4 .container .box-2 .pictur img{
+    width: 373.33px;
+    height: 320px;
+    border-radius: 0 96px 0 40px;
+}
+.page4 .container .box-2 .info{
+    width: 373.33px;
+    height: 17px;
+    margin-top: 16px;
+    display: flex;
+}
+.page4 .container .box-2 .info .TEXT1{
+    width: 90px;
+    height: 17px;
+    display: flex;
+}
+.page4 .container .box-2 .info .TEXT1 span, .TEXT2 span{
+    color: #282A3A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    font-family: "Inter", sans-serif;
+    margin-left: 8px;
+}
+.page4 .container .box-2 .info .TEXT2{
+    width: 116px;
+    height: 17px;
+    margin-left: 167.33px;
+    display: flex;
+}
+.page4 .container .box-2 .parag2{
+    width: 373.33px;
+    height: 102px;
+    margin-top: 16px;
+}
+.page4 .container .box-2 .parag2 p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 140%;
+    color: #282A3A;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.page4 .container .box-2 button{
+    width: 373.33px;
+    height: 22px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.page4 .container .box-2 button a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-decoration: none;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+    margin-left: 241.33px;
+}
+.page4 .container .box-2 button img{
+    margin-left: 8px;
+}
+.page4 .button{
+    width: 220px;
+    height: 70px;
+    background-color: #6D1600;
+    border: none;
+    border-radius: 0 32px 0 32px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 225px;
+    left: 580px;
+}
+.page4 .button a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #FFFFFF;
+    font-family: "Playfair Display SC", serif;
+}
+
+.task footer{
+    width: 100%;
+    height: 528px;
+    background-color: #282A3A;
+    display: flex;
+}
+footer .Slid-1{
+    width: 382px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+footer .Slid-1 .Piece1{
+    width: 220px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+footer .Slid-1 .Piece1 span{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    margin-left: 24px;
+}
+footer .Slid-1 .Piece2{
+    width: 382px;
+    height: 128px;
+    margin-top: 32px;
+}
+footer .Slid-1 .Piece2 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    padding-left: 10px;
+}
+footer .Slid-1 .Piece3{
+    width: 213px;
+    height: 60px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+footer .Slid-1 .Piece3 span{
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-seri;
+    margin-top: 10px;
+}
+footer .Slid-2{
+    width: 818px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+footer .Slid-2 .category{
+    width: 818px;
+    height: 187px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .Slid-2 .category .col-1{
+    width: 151px;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .Slid-2 .category .col-2{
+    width: 147px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .Slid-2 .category .col-3{
+    width: 272px;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .Slid-2 .category .col-1 span, .col-2 span, .col-3 span{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+}
+footer .Slid-2 .category .col-1 .link-1{
+    width: 86px;
+    height: 124px;
+}
+footer .Slid-2 .category .col-2 .link-2{
+    width: 147px;
+    height: 89px;
+}
+footer .Slid-2 .category .col-1 .link-1 ul, .col-2 .link-2 ul{
+    list-style: none;
+}
+footer .Slid-2 .category .col-1 .link-1 ul li, .col-2 .link-2 ul li{
+    margin-top: 12px;
+}
+footer .Slid-2 .category .col-1 .link-1 ul li a, .col-2 .link-2 ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    font-family: "Inter", sans-serif;
+}
+footer .Slid-2 .category .col-3 .link-3{
+    width: 272px;
+    height: 48px;
+    opacity: 70%;
+}
+footer .Slid-2 .category .col-3 .link-3 img{
+    margin-left: 2px;
+}
+footer .Slid-2 .layout{
+    width: 818px;
+    height: 141px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+footer .Slid-2 .layout .sub-txt{
+    width: 124px;
+    height: 39px;
+}
+footer .Slid-2 .layout .sub-txt span{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+}
+footer .Slid-2 .layout .form{
+    width: 818px;
+    height: 78px;
+    border-radius: 16px;
+    background-color: #FFFFFF14;
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+footer .Slid-2 .layout .form .inline{
+    width: 567px;
+    height: 30px;
+    margin-left: 24px;
+    display: flex;
+}
+footer .Slid-2 .layout .form .inline .s-th-txt{
+    width: 208px;
+    height: 30px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+footer .Slid-2 .layout .form .inline .s-th-txt span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #FFFFFF66;
+    font-family: "Poppins", sans-seri;
+}
+footer .Slid-2 .layout .form .but{
+    width: 110px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 104px;
+    background-color: #6D1600;
+}
+footer .Slid-2 .layout .form .but a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 100%;
+    text-decoration: none;
+    font-family: "Poppins", sans-seri;
+}
